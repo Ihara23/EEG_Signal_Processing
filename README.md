@@ -14,7 +14,7 @@ This repository contains EEG (Electroencephalogram) signal data for eye blink de
 '1' indicates the eye-closed state.
 '0' indicates the eye-open state.
 
-1.eeg_test.csv:
+2.eeg_test.csv:
 * This file is meant for testing and evaluating the trained model.
 * Similar structure to eeg_train.csv but without the label column.
 * Use this file to fit your model and make predictions on the test set.
@@ -23,6 +23,6 @@ This repository contains EEG (Electroencephalogram) signal data for eye blink de
 * The first 1000 samples from the training set have been extracted for initial analysis and visualization.
 * The eye blinking state is indicated in these samples to facilitate visual inspection.
 
-##Correlation Analysis
+## Correlation Analysis
 * The correlation between EEG signals for two users has been computed.
 * This information can be useful for understanding the relationship between the signals captured from different users.
